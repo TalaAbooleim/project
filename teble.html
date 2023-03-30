@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+* {
+   padding: 10px;
+   margin:5px;
+   box-sizing: border-box;
+}
+input[type="button"] {
+   border-radius: 40px;
+   color:black
+}
+.child{
+   display: inline-block;
+   height: 50px;
+   width:100px;
+   border-radius:10px;
+   color:black;
+   
+   
+   border: 1px solid black;
+}
+.child:nth-of-type(1){
+    padding: 10px;
+   background-color: white;
+}
+.child:nth-of-type(2){
+   background-color:white;
+}
+.child:nth-of-type(3){
+   background-color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="container">
+<div class="child">Row 1,col 1</div><div class="child">Row 1,col 2</div><div class="child">Row 1,col 3</div>
+<br>
+<div class="child">Row 1,col 1</div><div class="child">Row 2,col 2</div><div class="child">Row 2,col 3</div>
+</div><br>
+</body>
+</html>
